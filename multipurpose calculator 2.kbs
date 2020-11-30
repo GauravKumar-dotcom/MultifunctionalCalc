@@ -1,0 +1,271 @@
+
+#PSEUDO CODE 
+
+#asking user what they want to use
+#putting this reply in varible
+#using if then statement for particular reply
+#run the particular code according to the reply
+#asking user for entering values on the particular question
+#giving the reply with say statement
+#giving a graphics output with a tick mark
+
+
+
+#What user want to use
+cls
+clg
+print "what do you want to do ? "
+print "to use normal calculator press 1"
+print "to use area calculator press 2"
+print "to use volume calculator press 3"
+
+#if user want to use area calculator
+input " ",X
+If X= "2" then 
+clg
+print "to find area of rectangle press 1"
+print "to find area of square press 2"
+print "to find area of parallelogram press 3"
+print "to find area of triangle press 4"
+print "to find area of circle press 5"
+Input " ",Y
+
+#if user want to find area of rectangle
+If Y= "1" then
+clg
+cls
+say "enter the length"
+input "Enter the length: ",A
+Say "Enter the breadth" 
+input "Enter the breadth: ",B
+say "your answer is"+A*B
+print "Your answer is: ";
+print A*B
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find area of square
+if Y= "2" then
+clg
+cls
+Say "Enter the side"
+input "Enter the side: ",C
+say "your answer is"+ C*C
+print "your answer is: ";
+print C*C
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find area of parrallelogram
+if Y= "3" then
+clg
+cls
+say "Enter the base"
+Input "Enter the base: ",G
+say "enter the height"
+input "Enter the height: ",H
+say "your answer is"+ G*H
+print "your answer is: ";
+print G*H 
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find area of triangle
+if Y= "4" then
+clg
+cls
+say "Enter the base"
+input "Enter the  base: ",B
+say "Enter the height"
+input "Enter the height: ",H
+say "your answer is"+ 1/2*B*H
+print "your answer is: ";
+print 1/2*B*H
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find area of circle
+if Y= "5" then
+clg
+cls
+say "Enter the radius"
+input "Enter the radius: ",F
+say "your answer is"+ 22/7*F*F
+print "your answer is: ";
+print 22/7*F*F
+endif
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to use normal calculator
+if X = "1" then
+clg
+cls
+say "Enter the first number"
+input "Enter the first number: ",X
+say "Enter the operator"
+input "Enter the operator: ",Y
+say "Enter the second number"
+input "Enter the second number: ",Z
+if Y = "+" then
+print "Your answer is: ";
+print X+Z 
+Say "your answer is" + (X+Z)
+End if
+if Y = "-" then
+print "Your answer is: ";
+print X-Z
+say "your answer is"+ (X-Z)
+end if
+if Y = "*" then
+print  "Your answer is: ";
+print X*Z
+say "your answer is"+ (X*Z)
+end if
+If Y = "/" then
+print  "Your answer is: ";
+print X/Z
+say "your answer is"+ (X/Z)
+end if
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to use volume calculator
+if X= "3" then
+clg
+print "to find volume of cuboid press 1"
+print "to find volume of cube press 2"
+print "to find volume of cylinder press 3"
+print "to find volume of cone press 4"
+print "to find volume of sphere press 5"
+input " ",Z
+
+#if user want to find volume of cuboid
+if Z= "1" then
+clg
+cls
+say "enter the length"
+input"Enter the length: ",L
+say "enter the breadth"
+input"Enter the breadth: ",B
+say "enter the height "
+input"Enter the height: ",H
+say "your answer is"+ (L*B*H)
+print "your answer is: ";
+print L*B*H
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find volume of cube
+if Z= "2" then
+clg
+cls
+say "enter the side"
+input "Enter the  side: ",S
+say "enter the height"
+input "Enter the height: ",H
+say "your answer is "+ (S*S*H)
+print "Your answer is: ";
+print S*S*H
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find volume of cylinder
+if Z= "3" then
+clg
+cls
+say "enter the radius"
+input "Enter the radius: ",R
+say "enter the height"
+input "Enter the height: ",H
+say "your answer is "+ 22/7*R*R*H
+print "Your answer is: ";
+print 22/7*R*R*H
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find volume of cone
+if Z= "4" then
+clg
+cls
+say "enter the radius"
+input "Enter the radius: ",R
+say "enter the height"
+input "Enter the height: ",H
+say "your answer is"+ 1/3*22/7*R*R*H
+print "Your answer is: ";
+print  1/3*22/7*R*R*H
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+#if user want to find volume of sphere
+if Z= "5" then
+clg
+cls
+say "enter the radius"
+input "Enter the radius: ",R
+say "your answer is "+ 4/3*22/7*R*R*R
+print "Your answer is: ";
+print 4/3*22/7*R*R*R
+endif
+endif
+clg
+color red
+line 0,100,100,200
+color red
+line 100,200,300,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
