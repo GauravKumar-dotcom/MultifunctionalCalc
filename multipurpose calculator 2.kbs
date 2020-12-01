@@ -2,7 +2,7 @@
 #PSEUDO CODE 
 
 #asking user what they want to use
-#putting this reply in varible
+#putting panda this reply in varible
 #using if then statement for particular reply
 #run the particular code according to the reply
 #asking user for entering values on the particular question
