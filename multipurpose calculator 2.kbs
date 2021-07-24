@@ -1,4 +1,3 @@
-
 #PSEUDO CODE 
 
 #asking user what they want to use
@@ -52,8 +51,8 @@ line 100,200,300,0
 if Y= "2" then
 clg
 cls
-Say "Enter the side"
-input "Enter the side: ",C
+Say "Enter the length of the side"
+input "Enter the length of the side: ",C
 say "your answer is"+ C*C
 print "your answer is: ";
 print C*C
@@ -68,10 +67,10 @@ line 100,200,300,0
 if Y= "3" then
 clg
 cls
-say "Enter the base"
-Input "Enter the base: ",G
-say "enter the height"
-input "Enter the height: ",H
+say "Enter the length of the base"
+Input "Enter the length of the base: ",G
+say "enter the length of the height"
+input "Enter the length of the height: ",H
 say "your answer is"+ G*H
 print "your answer is: ";
 print G*H 
@@ -86,10 +85,10 @@ line 100,200,300,0
 if Y= "4" then
 clg
 cls
-say "Enter the base"
-input "Enter the  base: ",B
-say "Enter the height"
-input "Enter the height: ",H
+say "Enter the length of the base"
+input "Enter the length of the  base: ",B
+say "Enter the length of the height"
+input "Enter the length of the height: ",H
 say "your answer is"+ 1/2*B*H
 print "your answer is: ";
 print 1/2*B*H
@@ -104,8 +103,8 @@ line 100,200,300,0
 if Y= "5" then
 clg
 cls
-say "Enter the radius"
-input "Enter the radius: ",F
+say "Enter the length of the radius"
+input "Enter the length of the radius: ",F
 say "your answer is"+ 22/7*F*F
 print "your answer is: ";
 print 22/7*F*F
@@ -188,10 +187,10 @@ line 100,200,300,0
 if Z= "2" then
 clg
 cls
-say "enter the side"
-input "Enter the  side: ",S
-say "enter the height"
-input "Enter the height: ",H
+say "enter the length of the side"
+input "Enter the length of the side: ",S
+say "enter the length of the height"
+input "Enter the length of the height: ",H
 say "your answer is "+ (S*S*H)
 print "Your answer is: ";
 print S*S*H
@@ -206,10 +205,10 @@ line 100,200,300,0
 if Z= "3" then
 clg
 cls
-say "enter the radius"
-input "Enter the radius: ",R
-say "enter the height"
-input "Enter the height: ",H
+say "enter the length of the radius"
+input "Enter the length of the radius: ",R
+say "enter the length of the height"
+input "Enter the length of the height: ",H
 say "your answer is "+ 22/7*R*R*H
 print "Your answer is: ";
 print 22/7*R*R*H
@@ -224,10 +223,10 @@ line 100,200,300,0
 if Z= "4" then
 clg
 cls
-say "enter the radius"
-input "Enter the radius: ",R
-say "enter the height"
-input "Enter the height: ",H
+say "enter the length of the radius"
+input "Enter the length of the radius: ",R
+say "enter the length of the height"
+input "Enter the length of the height: ",H
 say "your answer is"+ 1/3*22/7*R*R*H
 print "Your answer is: ";
 print  1/3*22/7*R*R*H
@@ -242,8 +241,8 @@ line 100,200,300,0
 if Z= "5" then
 clg
 cls
-say "enter the radius"
-input "Enter the radius: ",R
+say "enter the length of the radius"
+input "Enter the length of the radius: ",R
 say "your answer is "+ 4/3*22/7*R*R*R
 print "Your answer is: ";
 print 4/3*22/7*R*R*R
